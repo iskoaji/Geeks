@@ -1,0 +1,324 @@
+/* animation */
+
+@-webkit-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e69a22, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e69a22, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e69a22, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e69a22, 0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .welcome-area {
+        padding-top: 10%;
+    }
+    .welcome-img img {
+        max-width: 100%;
+    }
+    .welcome-text h1 {
+        font-size: 58px;
+    }
+    .download-image-1 {
+        position: absolute;
+        right: -30px;
+        top: 76px;
+        z-index: 9;
+    }
+    .download-image-2 {
+        left: -30px;
+        position: absolute;
+        top: 140px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-header {
+        padding-top: 10px;
+    }
+    .navbar-header,
+    .navbar-brand {
+        float: none;
+        text-align: center;
+    }
+    .navbar-brand > img {
+        display: inline-block;
+    }
+    .nav > li > a {
+        padding: 10px 12px;
+    }
+    a.download::before,
+    .mainmenu-area ul#nav li a::before {
+        left: 12px;
+        top: 10px;
+    }
+    .single-price-table {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .welcome-area {
+        padding-top: 20%;
+    }
+    .welcome-text h1 {
+        font-size: 54px;
+    }
+    .single-features {
+        margin-bottom: 20px;
+    }
+    .home-one .area-title {
+      text-align: center;
+    }
+    .single-gallary-item img {
+        width: 100%;
+    }
+    .home-two .left-features,
+    .home-two .right-features {
+        margin-top: 0;
+    }
+    .single-team {
+        margin-bottom: 20px;
+    }
+    .member-image img {
+        width: 100%;
+    }
+    .contact-now h2 {
+        float: none;
+    }
+    .contact-now a.button {
+        display: inline-block;
+        float: none;
+        margin-top: 20px;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+        padding: 10px 0;
+    }
+    .navbar-toggle {
+        border: 1px solid;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+    .icon-bar {
+        background: #fff none repeat scroll 0 0;
+    }
+    .mainmenu-area ul#nav {
+        float: none;
+        text-align: center;
+    }
+    .mainmenu-area ul#nav li a {
+        display: block;
+    }
+    .mainmenu-area ul#nav li.active a::before,
+    .mainmenu-area ul#nav li a:hover::before {
+        max-width: 0;
+    }
+    .mainmenu-area ul#nav li.active a,
+    .mainmenu-area ul#nav li a:hover {
+        color: #e69a22;
+    }
+    .welcome-text {
+        margin-top: 0;
+    }
+    .welcome-text h1 {
+        font-size: 45px;
+    }
+    .welcome-text h3 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .os-menu > ul li a {
+        font-size: 22px;
+        height: 50px;
+        padding-top: 10px;
+        width: 50px;
+    }
+    .single-features {
+        margin-bottom: 20px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .home-one .area-title {
+      text-align: center;
+    }
+    .single-gallary-item img {
+        width: 100%;
+    }
+    
+    .single-price-table.active {
+        margin-top: 40px;
+    }
+    
+    .single-testmonial {
+        padding: 40px;
+        position: static;
+    }
+    .testmonial-member {
+        border: 5px solid;
+        margin: -65px auto 0 !important;
+        width: 150px;
+        position: inherit;
+    }
+    .home-two .left-features,
+    .home-two .right-features {
+        margin-top: 0;
+    }
+    .home-two a.download {
+        margin-bottom: 20px;
+    }
+    .single-team {
+        margin-bottom: 20px;
+    }
+    .member-image img {
+        width: 100%;
+    }
+    .contact-now h2 {
+        float: none;
+    }
+    .contact-now a.button {
+        display: inline-block;
+        float: none;
+        margin-top: 20px;
+    }
+    .preloader .status .preloader-text {
+        font-size: 300%;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .navbar-header {
+        padding: 10px 0;
+    }
+    .navbar-toggle {
+        border: 1px solid;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+    .icon-bar {
+        background: #fff none repeat scroll 0 0;
+    }
+    .mainmenu-area ul#nav {
+        float: none;
+        text-align: center;
+    }
+    .mainmenu-area ul#nav li a {
+        display: block;
+    }
+    .mainmenu-area ul#nav li.active a::before,
+    .mainmenu-area ul#nav li a:hover::before {
+        max-width: 0;
+    }
+    .mainmenu-area ul#nav li.active a,
+    .mainmenu-area ul#nav li a:hover {
+        color: #e69a22;
+    }
+    .single-price-table {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    .welcome-text {
+        margin-top: 0;
+    }
+    .welcome-text h1 {
+        font-size: 45px;
+    }
+    .welcome-text h3 {
+        font-size: 30px;
+    }
+    .os-menu > ul li a {
+        font-size: 22px;
+        height: 50px;
+        padding-top: 10px;
+        width: 50px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .single-features {
+        margin-bottom: 20px;
+    }
+    .home-one .area-title {
+      text-align: center;
+    }
+    .single-gallary-item img {
+        width: 100%;
+    }
+    
+    .single-price-table.active {
+        margin-top: 40px;
+    }
+    
+    .single-testmonial {
+        padding: 40px;
+        position: static;
+    }
+    .testmonial-member {
+        border: 5px solid;
+        margin: -65px auto 0;
+        width: 150px;
+        position: inherit;
+    }
+    .home-two .left-features,
+    .home-two .right-features {
+        margin-top: 0;
+    }
+    .home-two a.download {
+        margin-bottom: 20px;
+    }
+    .single-team {
+        margin-bottom: 20px;
+    }
+    .member-image img {
+        width: 100%;
+    }
+    .contact-now h2 {
+        float: none;
+    }
+    .contact-now a.button {
+        display: inline-block;
+        float: none;
+        margin-top: 20px;
+    }
+    .preloader .status .preloader-text {
+        font-size: 300%;
+    }
+}
