@@ -138,19 +138,19 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # https://geeks.kg/static/media/Logo.857f888619bb2c8fbecc9c3a4c3e4a5f.svg
 
-#smtp
-EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'isxaakjz@gmail.com'
-EMAIL_HOST_PASSWORD = 'fgmuibbvmfptuehb'
+# #smtp
+# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'isxaakjz@gmail.com'
+# EMAIL_HOST_PASSWORD = 'fgmuibbvmfptuehb'
 
-# redis
-REDIS_PORT = 6379
-REDIS_HOST = 'localhost'  # Используйте localhost вместо redis
+# # redis
+# REDIS_PORT = 6379
+# REDIS_HOST = 'localhost'  # Используйте localhost вместо redis
 
 
-# celery
-CELERY_BROKER_URL = 'redis://localhost:6379/0'  # Используйте localhost вместо redis
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'  # Используйте localhost вместо redis
+# # celery
+# CELERY_BROKER_URL = 'redis://localhost:6379/0'  # Используйте localhost вместо redis
+# CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'  # Используйте localhost вместо redis
