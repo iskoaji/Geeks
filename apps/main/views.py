@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Form, Index, Steps, Contact
+from apps.main.models import Form, Index, Steps, Contact
 from django.core.mail import send_mail
 from .service import get_text
 # Create your views here.

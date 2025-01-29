@@ -112,8 +112,8 @@ input:-webkit-autofill:focus {
 }
 
 .blue-bg {
-    background: #e69a22;
-    color: #ffffff;
+    background: #ffffff;
+    color: #e69a22;
 }
 
 .black-bg {
@@ -133,7 +133,7 @@ input:-webkit-autofill:focus {
 }
 
 .top-area-bg {
-    background: rgba(0, 0, 0, 0) url("img/homemain_bg.jpg") no-repeat scroll 0 0 / cover;
+    background: #222222 url("img/homemain_bg.jpg") no-repeat scroll 0 0 / cover;
     height: 100%;
     left: 0;
     position: absolute;
@@ -345,7 +345,7 @@ a.download::before {
 }
 
 .blue-bg .area-title::after {
-    background: #e69a22 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     content: "";
     height: 2px;
     left: 50%;
@@ -368,7 +368,7 @@ a.download::before {
 }
 
 .area-title > h2::before {
-    background: #e69a22 none repeat scroll 0 0;
+    background: #ffffff none repeat scroll 0 0;
     border-radius: 50%;
     bottom: -4px;
     content: "";
@@ -393,9 +393,9 @@ a.download::before {
 }
 
 .features-icon {
-    background: #e69a22 none repeat scroll 0 0;
+    background: #ffffff none repeat scroll 0 0;
     border-radius: 50%;
-    color: #ffffff;
+    color: #e69a22;
     display: block;
     font-size: 24px;
     height: 70px;
@@ -502,7 +502,7 @@ a.download::before {
 
 a.download {
     border: 2px solid;
-    color: #e69a22;
+    color: #ffffff;
     font-weight: 900;
     letter-spacing: 2px;
     padding: 10px 15px;
@@ -578,7 +578,7 @@ a.download {
 }
 
 .price-rate small {
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
 }
 
@@ -627,26 +627,12 @@ a.read-more:hover {
     text-align: justify;
 }
 
-.testmonial-member {
-    border: 5px solid;
-    border-radius: 50%;
-    box-shadow: 0 0 12px -7px #369000;
-    box-sizing: border-box;
-    left: 25px;
-    position: absolute;
-    top: 50%;
-    width: 150px;
-    margin-top: -75px !important;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
 .testmonial-member img {
     border-radius: 50%;
 }
 
 .testmonial-details h4 {
-    color: #e69a22;
+    color: #ffffff;
     font-size: 18px;
     text-transform: capitalize;
 }
@@ -1061,7 +1047,7 @@ h4.modal-title {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: white;
+    background-color: #222;
     z-index: 99999;
     height: 100%;
     width: 100%;
@@ -1130,6 +1116,7 @@ a.scrolltotop {
     transition: 0.3s;
     cursor: pointer;
 }
+
 
 a.scrolltotop:hover {
     background: #e69a22;
